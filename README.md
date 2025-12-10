@@ -112,3 +112,50 @@ The purpose of the project is to understand:
       Flask
 
       flask-cors
+
+7. Setup Instructions:
+
+  -> Install required Python packages.
+
+  -> Start Docker Desktop.
+
+  -> Run the API server using:
+
+          python app.py
+          
+  -> The API will run on:
+
+      http://127.0.0.1:5000
+      
+8. Testing the System:
+
+  -> Basic Tests
+
+        Print statements
+        
+              <img width="1200" height="216" alt="Screenshot 2025-12-11 044128" src="https://github.com/user-attachments/assets/7b586eca-3e46-4636-9d68-3d0b2b57c521" />
+
+        Arithmetic operations
+
+        Simple loops
+
+
+   -> Safety Tests
+
+        Infinite loop should timeout
+
+        Memory-heavy code should be killed
+
+        Network requests should fail
+
+        File writes should fail on read-only filesystem
+
+        File writes to /tmp should succeed
+
+    -> Docker Behavior Tests
+
+        Reading /etc/passwd should work
+
+        Writing to protected directories should fail
+
+        Temporary writes inside /tmp should work
