@@ -133,7 +133,7 @@ The purpose of the project is to understand:
 
         Print statements
         
-              <img width="1200" height="216" alt="Screenshot 2025-12-11 044128" src="https://github.com/user-attachments/assets/db9cdc01-                72a5-473d-b56a-6c2833033f39" />
+<img width="1200" height="216" alt="Screenshot 2025-12-11 044128" src="https://github.com/user-attachments/assets/db9cdc01-72a5-473d-b56a-6c2833033f39" />
 
         Arithmetic operations
 
