@@ -45,7 +45,7 @@ The purpose of the project is to understand:
 
   └── index.html
 
-  ------------------------
+------------------------
 
 4. How the System Works:
 
@@ -109,7 +109,9 @@ The purpose of the project is to understand:
 
     Understanding what Docker isolates and what it does not.
 
-    ------------------------------------
+    
+------------------------------------
+
 
 6. Requirements:
 
@@ -123,7 +125,7 @@ The purpose of the project is to understand:
 
       flask-cors
 
-      --------------------------------
+--------------------------------
 
 7. Setup Instructions:
 
@@ -140,6 +142,7 @@ The purpose of the project is to understand:
   -> The API will run on:
 
       http://127.0.0.1:5000
+
 
 -----------------------------------------
       
@@ -211,7 +214,8 @@ The purpose of the project is to understand:
 
           Read-only filesystem errors
 
-   --------------------------------------
+
+--------------------------------------
 
 12. Browser UI working:
 
@@ -235,7 +239,7 @@ The purpose of the project is to understand:
 
     How to document and structure a backend project
 
-    --------------------------------------------
+--------------------------------------------
 
 13. Conclusion:
 
