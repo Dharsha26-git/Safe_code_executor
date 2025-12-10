@@ -133,9 +133,8 @@ The purpose of the project is to understand:
 
         Print statements
         
-        <img width="1200" height="216" alt="Screenshot 2025-12-11 044128" src="https://github.com/user-attachments/assets/b75ad62a-0328-4359-b305-9524af42ac6c" />
+              <img width="1200" height="216" alt="Screenshot 2025-12-11 044128" src="https://github.com/user-attachments/assets/db9cdc01-                72a5-473d-b56a-6c2833033f39" />
 
-    
         Arithmetic operations
 
         Simple loops
@@ -160,3 +159,52 @@ The purpose of the project is to understand:
         Writing to protected directories should fail
 
         Temporary writes inside /tmp should work
+        
+9. API Summary;
+
+    -> Endpoint: POST /run
+   
+    -> Request body must include a "code" field containing Python code.
+   
+    -> Response contains:
+
+          output – printed output
+
+          errors – Python errors or sandbox violations
+
+    -> Error cases include:
+
+          Missing code
+
+          Code exceeding character limit
+
+          Timeout
+
+          Memory kill
+
+          Network blocked
+
+          Read-only filesystem errors
+
+10. What I Learned:
+
+    How to run untrusted code in a safe environment
+
+    How to apply Docker’s resource limits and isolation
+
+    Why network and filesystem restrictions are important
+
+    How online code execution systems protect themselves
+
+    How to design clean and clear API responses
+
+    How to document and structure a backend project
+
+11. Conclusion:
+
+  This project demonstrates a complete workflow for building a secure code execution sandbox using Docker and Python. It covers backend
+  
+  development, container security, safe execution practices, and practical DevOps concepts. The system is fully documented, testable, and
+  
+  ready for demonstration.
+
