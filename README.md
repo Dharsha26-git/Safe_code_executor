@@ -19,6 +19,8 @@ The purpose of the project is to understand:
 
 -> How real-world code execution platforms operate internally.
 
+---------------------------------
+
 2. Project Goals:
 
 -> Build an API that runs Python code.
@@ -31,6 +33,8 @@ The purpose of the project is to understand:
 
 -> Create basic documentation and a simple web UI for testing.
 
+--------------------------------------
+
 3. Project Structure:
 
   Safe-exec/
@@ -40,6 +44,8 @@ The purpose of the project is to understand:
   ├── runner.py 
 
   └── index.html
+
+  ------------------------
 
 4. How the System Works:
 
@@ -66,6 +72,8 @@ The purpose of the project is to understand:
 -> The API returns the results in JSON format.
 
 -> A simple HTML file allows users to test the API from the browser.
+
+---------------------------
 
 5. Features:
 
@@ -99,7 +107,9 @@ The purpose of the project is to understand:
 
     Write attempts blocked outside /tmp
 
-    Understanding what Docker isolates and what it does not
+    Understanding what Docker isolates and what it does not.
+
+    ------------------------------------
 
 6. Requirements:
 
@@ -112,6 +122,8 @@ The purpose of the project is to understand:
       Flask
 
       flask-cors
+
+      --------------------------------
 
 7. Setup Instructions:
 
@@ -128,6 +140,8 @@ The purpose of the project is to understand:
   -> The API will run on:
 
       http://127.0.0.1:5000
+
+-----------------------------------------
       
 8. Testing the System:
 
@@ -169,6 +183,7 @@ The purpose of the project is to understand:
 
 <img width="1224" height="204" alt="Screenshot 2025-12-11 050948" src="https://github.com/user-attachments/assets/63edd5ca-dec3-4748-8324-2a36284861ba" />
 
+-------------------------------------------------
         
 9. API Summary:
 
@@ -196,12 +211,15 @@ The purpose of the project is to understand:
 
           Read-only filesystem errors
 
+   --------------------------------------
+
 12. Browser UI working:
 
     This is based on the index.html code.
     
 <img width="1363" height="516" alt="Screenshot 2025-12-11 051633" src="https://github.com/user-attachments/assets/7d6ceace-e63d-4d63-b128-4ced5e28acd9" />
 
+-----------------------
 
 11. What I Learned:
 
@@ -217,11 +235,18 @@ The purpose of the project is to understand:
 
     How to document and structure a backend project
 
-12. Conclusion:
+    --------------------------------------------
+
+13. Conclusion:
 
   This project demonstrates a complete workflow for building a secure code execution sandbox using Docker and Python. It covers backend
-  
   development, container security, safe execution practices, and practical DevOps concepts. The system is fully documented, testable, and
-  
   ready for demonstration.
 
+----------------------------------------------------
+
+Author: Dharsha Kunduru 
+
+EMP ID: RIS00422
+
+subject: Safe Code Executor - Python + Docker
