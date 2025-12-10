@@ -121,8 +121,10 @@ The purpose of the project is to understand:
 
   -> Run the API server using:
 
-          python app.py
-          
+          python app.py:
+
+  <img width="1227" height="333" alt="Screenshot 2025-12-11 051102" src="https://github.com/user-attachments/assets/08b920e1-49b7-4688-be48-b696f1fb6875" />
+       
   -> The API will run on:
 
       http://127.0.0.1:5000
@@ -146,24 +148,29 @@ The purpose of the project is to understand:
    -> Safety Tests
 
         Infinite loop should timeout:
+        
+<img width="1114" height="237" alt="Screenshot 2025-12-11 050518" src="https://github.com/user-attachments/assets/c1aba106-60d6-4784-9934-c9f13ba8826f" />      
 
-        Memory-heavy code should be killed
+        Memory-heavy code should be killed:
 
-        Network requests should fail
+<img width="1083" height="231" alt="Screenshot 2025-12-11 050603" src="https://github.com/user-attachments/assets/f0d228bd-a8dd-49e4-bfce-722d640abe8b" />
 
-        File writes should fail on read-only filesystem
+        Network requests should fail:
 
-        File writes to /tmp should succeed
+<img width="1227" height="200" alt="Screenshot 2025-12-11 050655" src="https://github.com/user-attachments/assets/e7a22c45-0192-4ee7-bcc4-fa417f0a17c2" />
 
     -> Docker Behavior Tests
 
-        Reading /etc/passwd should work
+        Reading /etc/passwd should work:
 
-        Writing to protected directories should fail
+<img width="1224" height="221" alt="Screenshot 2025-12-11 050831" src="https://github.com/user-attachments/assets/f23cc838-e971-487c-856d-2753eda6dc2b" />
 
-        Temporary writes inside /tmp should work
+        Writing to protected directories should fail:
+
+<img width="1224" height="204" alt="Screenshot 2025-12-11 050948" src="https://github.com/user-attachments/assets/63edd5ca-dec3-4748-8324-2a36284861ba" />
+
         
-9. API Summary;
+9. API Summary:
 
     -> Endpoint: POST /run
    
@@ -189,7 +196,14 @@ The purpose of the project is to understand:
 
           Read-only filesystem errors
 
-10. What I Learned:
+12. Browser UI working:
+
+    This is based on the index.html code.
+    
+<img width="1363" height="516" alt="Screenshot 2025-12-11 051633" src="https://github.com/user-attachments/assets/7d6ceace-e63d-4d63-b128-4ced5e28acd9" />
+
+
+11. What I Learned:
 
     How to run untrusted code in a safe environment
 
@@ -203,7 +217,7 @@ The purpose of the project is to understand:
 
     How to document and structure a backend project
 
-11. Conclusion:
+12. Conclusion:
 
   This project demonstrates a complete workflow for building a secure code execution sandbox using Docker and Python. It covers backend
   
