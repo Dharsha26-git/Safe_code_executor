@@ -139,12 +139,13 @@ The purpose of the project is to understand:
         
 <img width="1198" height="207" alt="Screenshot 2025-12-11 050207" src="https://github.com/user-attachments/assets/023cca1e-3359-4714-ac08-8ae43ce3b323" />
 
-        Simple loops
+        Simple loops:
 
+<img width="1151" height="229" alt="Screenshot 2025-12-11 050334" src="https://github.com/user-attachments/assets/879cdc99-4e47-495b-9ceb-5e4267e61b7b" />
 
    -> Safety Tests
 
-        Infinite loop should timeout
+        Infinite loop should timeout:
 
         Memory-heavy code should be killed
 
