@@ -66,3 +66,49 @@ The purpose of the project is to understand:
 -> The API returns the results in JSON format.
 
 -> A simple HTML file allows users to test the API from the browser.
+
+5. Features:
+
+-> Basic Functionality:
+
+    Runs Python code on request
+
+    Returns output and error messages as JSON
+
+-> Safety Improvements
+
+    Execution timeout:
+
+    Memory limit
+
+    CPU limit
+
+    Network isolation
+
+    Read-only filesystem
+
+    Temporary writable directory (/tmp)
+
+    Code length validation (maximum 5000 characters)
+
+    Clear and meaningful error messages
+
+-> Docker Security Experiments
+
+    Read access to internal system files (such as /etc/passwd)
+
+    Write attempts blocked outside /tmp
+
+    Understanding what Docker isolates and what it does not
+
+6. Requirements:
+
+  -> Python 3
+
+  -> Docker Desktop
+
+  -> pip packages:
+
+      Flask
+
+      flask-cors
