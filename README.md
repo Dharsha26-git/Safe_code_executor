@@ -131,11 +131,13 @@ The purpose of the project is to understand:
 
   -> Basic Tests
 
-        Print statements
+        Print statements:
         
 <img width="1200" height="216" alt="Screenshot 2025-12-11 044128" src="https://github.com/user-attachments/assets/db9cdc01-72a5-473d-b56a-6c2833033f39" />
 
-        Arithmetic operations
+        Arithmetic operations:
+        
+<img width="1198" height="207" alt="Screenshot 2025-12-11 050207" src="https://github.com/user-attachments/assets/023cca1e-3359-4714-ac08-8ae43ce3b323" />
 
         Simple loops
 
